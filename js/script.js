@@ -1,5 +1,5 @@
-import Sound from "/js/sounds.js"
-import Controls from "/js/controls.js"
+import Sound from "./sounds.js"
+import Controls from "./controls.js"
 
 
 const displayMinutes = document.querySelector('.minutes')
