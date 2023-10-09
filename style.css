@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: crimson;
+
+    display: grid;
+    min-height: 100vh;
+   
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+   align-self: end;
+   justify-self: center;
+}
+
+#time{
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#btn{
+    background-color: rgba(122, 0, 0, 0.671);
+    border-radius: 9999px;
+    padding: 1.5rem;
+    width: 300px;
+
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+button svg{
+    width: clamp(3rem, 2rem + 12vw, 6.4rem);
+    cursor: pointer;
+}
+
+button svg path,
+button svg rect,
+button svg polygon{
+    fill: white;
+}
+
+footer{
+    justify-self: end;
+    align-self: flex-end;
+
+    padding: 2rem;
+}
+
+.hide{
+    display: none;
+}
